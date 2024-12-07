@@ -1,0 +1,409 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin: 0;
+    color: #141f31;
+}
+
+img {
+    object-fit: cover;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    color: #141f31;
+    padding: 15px 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    color: #141f31;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-number {
+    background: #f7c12e;
+    padding: 10px 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.uptext {
+    color: #d99a00;
+    padding: 10px 10px;
+    margin: 0;
+    font-weight: bold;
+}
+
+
+/* Hero Section */
+.hero {
+    background: url('https://agatastal.com.ua/wp-content/uploads/2020/05/dvernyi-zamok-kale-vhidni-dveri-agatastal-dla-chogo-zmaschuvaty-dverni-zamky.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero2 {
+    background: rgba(0, 0, 0, 0.43);
+    padding: 40px 40px;
+    max-width: 550px;
+    text-decoration: none;
+    font-weight: bold;
+
+    .btn {
+        background: #f7c12e;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    h1 {
+        color: #fff;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+/* Quote Section */
+.quote {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .container {
+        width: 80%;
+        transform: translateY(-50%);
+        background: #ffffff;
+        padding: 30px 30px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.quote form {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.quote input, .quote select {
+    padding: 10px;
+    background: #f3f3f3;
+    border: none;
+}
+
+.quotebutton {
+    background: #1a2738;
+    border: none;
+    padding: 10px 40px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Services Section */
+.services {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.service-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px 10px;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    width: calc(30% - 30px);
+    transition: transform 0.3s;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+}
+
+.service-item .icon {
+    margin-right: 25px;
+}
+
+.service-item .content {
+    text-align: left;
+}
+
+.service-item .icon img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.service-item h3 {
+    font-size: 1.2em;
+    color: #1a2738;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    background: #f5f5f5;
+    padding: 0;
+    text-align: center;
+
+    .container {
+        transform: translateY(100px);
+        max-width: 800px;
+        gap: 40px;
+        background: #ffffff;
+        padding: 10px 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .images {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            gap: 10px;
+
+            .colum1 {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                gap: 10px;
+                width: 200px;
+                height: 400px;
+            }
+
+            .colum2 {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                width: 200px;
+                height: 400px;
+            }
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: flex-start;
+            text-align: left;
+            width: 500px;
+            height: 400px;
+
+            .uptext {
+                padding-left: 0;
+            }
+
+            p {
+                margin: 0;
+            }
+
+            ul {
+                font-size: small;
+                li {
+                    img {
+                        width: 10px;
+                        height: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.mini-img {
+    width: 200px;
+    height: 200px;
+}
+
+.max-img {
+    width: 200px;
+    height: 400px;
+}
+
+.why-choose-us ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 2;
+}
+
+/* Stats Section */
+
+.stat-items {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+    .stat-item {
+        padding: 20px;
+        margin: 10px;
+        border-radius: 5px;
+        text-align: center;
+        width: 150px;
+
+        img {
+            height: 40px;
+            width: 40px;
+        }
+    }
+}
+
+.stats {
+    background: #1a2738;
+    color: #fff;
+    padding: 130px 0 30px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.stat-item {
+    margin: 10px;
+}
+
+/* Store Section */
+.store {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.store-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+
+    .uptext {
+        padding-left: 0;
+    }
+}
+
+.store-button {
+    background: #fff;
+    color: #000;
+    border: gold 1px solid;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-item {
+    background-color: #fff;
+    text-align: left;
+    padding: 15px;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+.product-item .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    * {
+        margin: 0;
+    }
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.rating {
+    color: gold;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.description {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Footer */
+.footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+}

@@ -1,29 +1,247 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Інформація з Random User API</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Locksmith Services</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="container">
-    <h1>Інформація про користувачів</h1>
-    <button id="loadDataBtn">Отримати інформацію</button>
-    <table id="userTable">
-        <thead>
-        <tr>
-            <th>Фото</th>
-            <th>Місто</th>
-            <th>Країна</th>
-            <th>Ім'я</th>
-            <th>Поштовий індекс</th>
-        </tr>
-        </thead>
-        <tbody id="userInfo">
-        </tbody>
-    </table>
-</div>
-<script src="script.js"></script>
+<header class="header">
+    <div class="container">
+        <div class="logo">Locksmith</div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="contact-number">1234 5678 90</div>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container hero2">
+        <p class="uptext">BEST LOCKSMITH</p>
+        <h1>We Provide Best Locksmith Services All Over World</h1>
+        <a href="#" class="btn">CONTACT US</a>
+    </div>
+</section>
+
+<section class="quote">
+    <div class="container">
+        <form>
+            <h2>GET A QUOTE</h2>
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Phone">
+            <select>
+                <option value="">Services</option>
+            </select>
+            <button class="quotebutton" type="submit">GET A QUOTE</button>
+        </form>
+    </div>
+</section>
+
+<section class="services">
+    <div class="container">
+        <p class="uptext">OUR SERVICES</p>
+        <h2>SERVICE WE OFFER</h2>
+        <div class="service-items">
+            <div class="service-item">
+                <div class="icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/4269/4269480.png" alt="Locksmith Services Icon">
+                </div>
+                <div class="content">
+                    <h3>Locksmith Services</h3>
+                    <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <div class="icon">
+                    <img src="https://www.pngitem.com/pimgs/m/140-1407068_png-file-svg-safe-lock-icon-png-transparent.png" alt="Safes & Locks Icon">
+                </div>
+                <div class="content">
+                    <h3>Safes & Locks</h3>
+                    <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <div class="icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/7426/7426564.png" alt="Access Control Icon">
+                </div>
+                <div class="content">
+                    <h3>Access Control</h3>
+                    <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <div class="icon">
+                    <img src="https://t4.ftcdn.net/jpg/08/33/25/19/360_F_833251917_YVXtIEddlG0RrVySvHUz8G6KXwN04PNv.jpg" alt="Security Doors Icon">
+                </div>
+                <div class="content">
+                    <h3>Security Doors</h3>
+                    <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <div class="icon">
+                    <img src="https://media.istockphoto.com/id/636632652/vector/bell-icon.jpg?s=612x612&w=0&k=20&c=SbcDfXD7VreJswQvR9ODx-E4xe-jakMAR38OlSnnLT4=" alt="Alarm System Icon">
+                </div>
+                <div class="content">
+                    <h3>Alarm System</h3>
+                    <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <div class="icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/36/36311.png" alt="Video Surveillance Icon">
+                </div>
+                <div class="content">
+                    <h3>Video Surveillance</h3>
+                    <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="why-choose-us">
+    <div class="container">
+        <div class="images">
+            <div class="colum1">
+                <img class="mini-img" src="https://static7.depositphotos.com/1058393/741/i/450/depositphotos_7415299-stock-photo-security-cameras.jpg"
+                     alt="">
+                <img class="mini-img" src="https://agatastal.com.ua/wp-content/uploads/2020/05/dvernyi-zamok-kale-vhidni-dveri-agatastal-dla-chogo-zmaschuvaty-dverni-zamky.jpg"
+                     alt="">
+            </div>
+            <div class="colum2">
+                <img class="max-img" src="https://media.istockphoto.com/id/545794668/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BC%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%B8%D0%B9-%D0%BC%D0%B0%D0%BB%D1%8C%D1%87%D0%B8%D0%BA-%D0%BD%D0%B0%D0%B6%D0%B8%D0%BC%D0%B0%D0%B5%D1%82-%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D1%83-%D0%BD%D0%B0-%D0%B4%D0%BE%D0%BC%D0%BE%D1%84%D0%BE%D0%BD.jpg?s=612x612&w=0&k=20&c=wj1-xWYZZ-WFdbH-17C_Qp11IwXmwcp7XkcPksSWTEs="
+                     alt="">
+            </div>
+        </div>
+        <div class="content">
+            <p class="uptext">WHY CHOOSE US</p>
+            <h2>WHY CHOOSE US?</h2>
+            <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida lacus vel facilisis.</p>
+            <ul>
+                <li>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR5m81ZgL3IIIi1MQ___nx_ITJRZ9muzK9R5TXIu4aL3TV5Kt0X5SUnT9PNj9DZzvRJtA&usqp=CAU" alt="V">
+                    Safe & Safe Deposit Boxes
+                </li>
+                <li>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR5m81ZgL3IIIi1MQ___nx_ITJRZ9muzK9R5TXIu4aL3TV5Kt0X5SUnT9PNj9DZzvRJtA&usqp=CAU" alt="V">
+                    Car Locksmith & Car Alarm Systems
+                </li>
+                <li>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR5m81ZgL3IIIi1MQ___nx_ITJRZ9muzK9R5TXIu4aL3TV5Kt0X5SUnT9PNj9DZzvRJtA&usqp=CAU" alt="V">
+                    Residential & Commercial Locksmith
+                </li>
+                <li>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR5m81ZgL3IIIi1MQ___nx_ITJRZ9muzK9R5TXIu4aL3TV5Kt0X5SUnT9PNj9DZzvRJtA&usqp=CAU" alt="V">
+                    Digital & Electronic Lock
+                </li>
+            </ul>
+            <button class="quotebutton">GET A QUOTE</button>
+        </div>
+    </div>
+</section>
+
+<section class="stats">
+    <div class="container">
+        <div class="stat-items">
+            <div class="stat-item">
+                <img src="https://icones.pro/wp-content/uploads/2021/04/icone-internet-jaune.png" alt="Happy Customers">
+                <h3>25k+</h3>
+                <p>Happy Customers</p>
+            </div>
+            <div class="stat-item">
+                <img src="https://img.pikbest.com/origin/09/23/63/73VpIkbEsT7d2.png!sw800" alt="World Wide Branch">
+                <h3>16</h3>
+                <p>World Wide Branch</p>
+            </div>
+            <div class="stat-item">
+                <img src="https://t4.ftcdn.net/jpg/05/40/09/17/360_F_540091788_AvDyNUSbtnKQfNccukuFa3ZlsHFnMYrK.png" alt="Projects Completed">
+                <h3>28k+</h3>
+                <p>Projects Complete</p>
+            </div>
+            <div class="stat-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/8702/8702042.png" alt="Awards Winner">
+                <h3>36</h3>
+                <p>Awards Winner</p>
+            </div>
+            <div class="stat-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/8865/8865579.png" alt="Product sold">
+                <h3>74k+</h3>
+                <p>Product sold</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="store">
+    <div class="container">
+        <div class="store-header">
+            <div class="title">
+                <p class="uptext">OUR PRODUCT</p>
+                <h2>LOCKSMITH STORE</h2>
+            </div>
+            <button class="store-button">
+                VIEW ALL
+            </button>
+        </div>
+
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="https://megabayt.com.ua/image/cache/catalog/videosposteregennya-folder/8/a-3926041091_stok-zovnishnya-kamera-300x300.jpg" alt="Camera">
+                <div class="info">
+                    <p class="price">$55.0</p>
+                    <p class="rating">★★★★★</p>
+                </div>
+                <p class="description">Riusmod tempor incid</p>
+            </div>
+            <div class="product-item">
+                <img src="https://furmag.com.ua/image/cache/catalog/krepeg/dsc_0055-700x700.jpg" alt="Lock">
+                <div class="info">
+                    <p class="price">$55.0</p>
+                    <p class="rating">★★★★★</p>
+                </div>
+                <p class="description">Riusmod tempor incid</p>
+            </div>
+            <div class="product-item">
+                <img src="https://vista.ua/image/cache/catalog/products/3/3911391-290x290.jpg" alt="Padlock">
+                <div class="info">
+                    <p class="price">$55.0</p>
+                    <p class="rating">★★★★★</p>
+                </div>
+                <p class="description">Riusmod tempor incid</p>
+            </div>
+            <div class="product-item">
+                <img src="https://cdn.27.ua/sc--media--prod/default/80/17/c2/8017c274-759d-4e91-a3d0-cc1c8f80dfb0.jpg" alt="Safe">
+                <div class="info">
+                    <p class="price">$55.0</p>
+                    <p class="rating">★★★★★</p>
+                </div>
+                <p class="description">Riusmod tempor incid</p>
+            </div>
+            <div class="product-item">
+                <img src="https://images.prom.ua/2824672219_w600_h600_2824672219.jpg" alt="Smart Lock">
+                <div class="info">
+                    <p class="price">$55.0</p>
+                    <p class="rating">★★★★★</p>
+                </div>
+                <p class="description">Riusmod tempor incid</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2024 Locksmith Services. All rights reserved.</p>
+    </div>
+</footer>
 </body>
 </html>
